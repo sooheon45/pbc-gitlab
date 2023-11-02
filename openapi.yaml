@@ -9,7 +9,6 @@ info:
     <https://docs.gitlab.com/ee/api/>. Contributions are welcome.
 
     When viewing this on gitlab.com, you can test API calls directly from the browser
-    against the `gitlab.com` instance, if you are logged in.
     The feature uses the current [GitLab session cookie](https://docs.gitlab.com/ee/api/index.html#session-cookie),
     so each request is made using your account.
 
