@@ -201,7 +201,24 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/API_Entities_Badge'
+                API_Entities_Badge:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    link_url:
+                      type: string
+                    image_url:
+                      type: string
+                    rendered_link_url:
+                      type: string
+                    rendered_image_url:
+                      type: string
+                    id:
+                      type: string
+                    kind:
+                      type: string
+                  description: API_Entities_Badge model
     put:
       tags:
       - badges
